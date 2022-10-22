@@ -14,7 +14,7 @@ There are 3 files which should be constantly updated as you come across words wi
 
 Be aware of the difference between 
 
-`s/ear/eeerr/g` - For example this would change the word $linear$ to $lineerrr$ \n
+`s/ear/eeerr/g` - For example this would change the word $linear$ to $lineerrr$ <br>
 `s/\<ear\>/eeerr/g` - This format would only change the word $ear$ itself
 
 
