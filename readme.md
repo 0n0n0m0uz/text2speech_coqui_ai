@@ -25,4 +25,7 @@ Be aware of the difference between
 `s/ear/eeerr/g` - For example this would change the word *linear* to *lineerrr* <br>
 `s/\<ear\>/eeerr/g` - This format would only change the word *ear* itself
 
+# Input
+
+1. Create a *.txt* file via any method.  I used a Forbes articles about GPU's as an example because it's filled with acronyms, abbreviations, dates, and other difficult words.  It's amazing how well it sounds even without the prounciated updates and tweaks.
 
