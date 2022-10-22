@@ -14,7 +14,7 @@
 
 ## Pronounciation Updates
 
-There are 3 files which should be constantly updated as you come across words with strange pronounciations, new abbreviations which the model will not be aware of, or rare combinations of vowels which need tweaking.  This files use the 'sed' cli format which is a form of REGEX commands.
+There are 3 files which should be constantly updated as you come across words with strange pronounciations, new abbreviations which the model will not be aware of, or rare combinations of vowels which need tweaking.  These files use the 'sed' cli format which is a form of REGEX commands.
 
 `fonetix.sed` <br>
 `abbreviations.sed` <br>
