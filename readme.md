@@ -6,6 +6,10 @@
 ## Setup
 
 1. This only works on linux or on WSL2 for windows (Linux for Windows)
+2. Create a Conda environment using the Mamba package (much faster) and the yaml file I made.  Depending on your GPU and machine there can be compatiblity issues with the pytorch version and the cudatoolkit, and NVIDIA drivers.  This should work for most newer gaming laptops. 
+
+`mamba env create -n tts`
+`mamba env update -n tts -f txt2wav_env.yaml`
 
 
 ## Pronounciation Updates
