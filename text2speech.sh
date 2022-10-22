@@ -1,15 +1,6 @@
 #! /bin/bash
-# ▗▄▖
-#▗▛▀▜
-#▐▙    ▟██▖▐▙█▙  ▟█▙
-# ▜█▙  ▘▄▟▌▐▛ ▜▌▐▛ ▜▌
-#   ▜▌▗█▀▜▌▐▌ ▐▌▐▌ ▐▌
-#▐▄▄▟▘▐▙▄█▌▐█▄█▘▝█▄█▘
-# ▀▀▘  ▀▀▝▘▐▌▀▘  ▝▀▘
-#          ▐▌
-# a  bash script by Christos Angelopoulos, February 2022
 #converts txt to wav
-#using the all powerful https://github.com/coqui-ai/TTS
+#using https://github.com/coqui-ai/TTS
 
 FILE="$(yad --file-selection --filename=Desktop --height='400' --width='800' --title='Sapo - Select File to Read'  --window-icon=$HOME/Github_Repos/sapo/sapo.png --hscroll-policy=never --vscroll-policy=never)"
 case $? in
