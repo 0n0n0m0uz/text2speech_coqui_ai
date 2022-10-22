@@ -2,7 +2,7 @@
 #converts txt to wav
 #using https://github.com/coqui-ai/TTS
 
-FILE="$(yad --file-selection --filename=Desktop --height='400' --width='800' --title='Sapo - Select File to Read'  --window-icon=$HOME/Github_Repos/sapo/sapo.png --hscroll-policy=never --vscroll-policy=never)"
+FILE="$(yad --file-selection --filename=Desktop --height='400' --width='800' --title='Select .txt file to read'  --window-icon=$HOME/Github_Repos/sapo/sapo.png --hscroll-policy=never --vscroll-policy=never)"
 case $? in
   0)
   ;;
