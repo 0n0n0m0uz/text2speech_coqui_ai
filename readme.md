@@ -1,6 +1,6 @@
 ## Overview
 
-1. Run the Bash Script `text2speech.sh` which will allow you to choose a $$.txt$$ file to convert and output a $$.wav$$
+1. Run the Bash Script `text2speech.sh` which will allow you to choose a $.txt$ file to convert and output a $.wav$
 
 
 ## Setup
